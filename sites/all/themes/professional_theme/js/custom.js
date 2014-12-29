@@ -19,7 +19,7 @@ jQuery(document).ready(function($) {
       $(this).parent().children('ul').slideToggle(250);
     });
   }
- 
+ //open menu children
  $("ul li.expanded").mouseenter(function() {
       $(this).children('ul').css('display', 'block');
     });
