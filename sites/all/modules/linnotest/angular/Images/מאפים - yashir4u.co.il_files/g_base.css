@@ -1,0 +1,47 @@
+/* ATPLogic CSS Framework */
+body { text-align: center; }
+.container { margin: 0 auto; text-align: left; width: 75%; min-width: 750px; }
+
+.g_row { clear: both; float: left; width: 100%; }
+.g_cell, .g_fix { float: left; display: inline; }
+
+.g_row_fluid .g_cell .g_cell { margin-left: auto; }
+.g_row_fluid .g_cell { margin-left: -3px; }
+.g_fluid { overflow: hidden; position: relative; float: none !important; display: block; _zoom: 1; }
+.g_opposite { float: right !important; }
+.g_ha_o { text-align: right; }
+
+.g_size1of2, .g_size2of4, .g_size3of6, .g_size4of8, .g_size6of12, .g_size8of16 { width: 50%; }
+
+.g_size1of3, .g_size2of6, .g_size4of12 { width: 33.3337%; }
+.g_size2of3, .g_size4of6, .g_size8of12 { width: 66.6667%; }
+
+.g_size1of4, .g_size2of8, .g_size3of12, .g_size4of16 { width: 25%; }
+.g_size3of4, .g_size6of8, .g_size9of12, .g_size12of16 { width: 75%; }
+
+.g_size1of5 { width: 20%; }
+.g_size2of5 { width: 40%; }
+.g_size3of5 { width: 60%; }
+.g_size4of5 { width: 80%; }
+
+.g_size1of6, .g_size2of12 { width: 16.6667%; }
+.g_size5of6, .g_size10of12 { width: 83.3337%; }
+
+.g_size1of8, .g_size2of16 { width: 12.5%; }
+.g_size3of8, .g_size6of16 { width: 37.5%; }
+.g_size5of8, .g_size10of16 { width: 62.5%; }
+.g_size7of8, .g_size14of16 { width: 87.5%; }
+
+.g_size1of12 { width: 8.3337%; }
+.g_size5of12 { width: 41.6667%; }
+.g_size7of12 { width: 58.3337%; }
+.g_size11of12 { width: 91.6667%; }
+
+.g_size1of16 { width: 6.25%; }
+.g_size3of16 { width: 18.75%; }
+.g_size5of16 { width: 31.25%; }
+.g_size7of16 { width: 43.75%; }
+.g_size9of16 { width: 56.25%; }
+.g_size11of16 { width: 68.75%; }
+.g_size13of16 { width: 81.25%; }
+.g_size15of16 { width: 93.75%; }

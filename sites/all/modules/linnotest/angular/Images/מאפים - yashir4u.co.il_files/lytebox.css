@@ -1,0 +1,148 @@
+#lbOverlay { position: fixed; top: 0; left: 0; z-index: 99998; width: 100%; height: 500px; background-color: #000000;}
+	#lbOverlay.grey { background-color: #000000; }
+	#lbOverlay.red { background-color: #330000; }
+	#lbOverlay.green { background-color: #003300; }
+	#lbOverlay.blue { background-color: #AFBFDE; }		/*#011D50;*/	
+	#lbOverlay.gold { background-color: #666600; }
+
+#lbMain { position: absolute; left: 0; width: 100%; z-index: 99999; text-align: center; line-height: 0; }
+#lbMain a img { border: none; }
+
+#lbOuterContainer { position: relative; background-color: #fff; width: 200px; height: 200px; margin: 0 auto; }
+	#lbOuterContainer.grey { border: 3px solid #888888; }
+	#lbOuterContainer.red { border: 3px solid #DD0000; }
+	#lbOuterContainer.green { border: 3px solid #00B000; }
+	#lbOuterContainer.blue { border: 3px solid #5F89D8; }
+	#lbOuterContainer.gold { border: 3px solid #B0B000; }
+
+#lbDetailsContainer {	font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em;	overflow: hidden; margin: 0 auto; }
+	#lbDetailsContainer.grey { border: 3px solid #888888; border-top: none; }
+	#lbDetailsContainer.red { border: 3px solid #DD0000; border-top: none; }
+	#lbDetailsContainer.green { border: 3px solid #00B000; border-top: none; }
+	#lbDetailsContainer.blue { border: 3px solid #5F89D8; border-top: none; }
+	#lbDetailsContainer.gold { border: 3px solid #B0B000; border-top: none; }
+
+#lbImageContainer, #lbIframeContainer { padding: 10px; }
+#lbLoading {
+	position: absolute; top: 45%; left: 0%; height: 32px; width: 100%; text-align: center; line-height: 0; background: url(m/loading.gif) center no-repeat;
+}
+
+#lbHoverNav { position: absolute; top: 60; left: 0; height: 90%; width: 100%; z-index: 10; display: none; }
+#lbImageContainer>#lbHoverNav { left: 0; }
+#lbHoverNav a { outline: none; }
+		
+#lbDetailsData { padding: 0 10px; }
+	#lbDetailsData.grey { color: #333333; }
+	#lbDetailsData.red { color: #620000; }
+	#lbDetailsData.green { color: #003300; }
+	#lbDetailsData.blue { color: #01379E; }
+	#lbDetailsData.gold { color: #666600; }
+
+#lbDetails { width: 60%; float: left; text-align: left; }
+#lbCaption { display: block; font-weight: bold; }
+#lbNumberDisplay { float: left; display: block; padding-bottom: 1.0em; }
+#lbNavDisplay { float: left; display: block; padding-bottom: 1.0em; }
+
+#lbClose { width: 64px; height: 28px; float: right; margin-bottom: 1px;background: url(m/close.gif) no-repeat; }
+	#lbClose.grey { background: url(m/close_grey.png) no-repeat; }
+	#lbClose.red { background: url(m/close_red.png) no-repeat; }
+	#lbClose.green { background: url(m/close_green.png) no-repeat; }
+	#lbClose.blue { background: url(m/close_blue.png) no-repeat; }
+	#lbClose.gold { background: url(m/close_gold.png) no-repeat; }
+
+#lbPlay { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lbPlay.grey { background: url(m/play_grey.png) no-repeat; }
+	#lbPlay.red { background: url(m/play_red.png) no-repeat; }
+	#lbPlay.green { background: url(m/play_green.png) no-repeat; }
+	#lbPlay.blue { background: url(m/play_blue.png) no-repeat; }
+	#lbPlay.gold { background: url(m/play_gold.png) no-repeat; }
+	
+#lbPause { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lbPause.grey { background: url(m/pause_grey.png) no-repeat; }
+	#lbPause.red { background: url(m/pause_red.png) no-repeat; }
+	#lbPause.green { background: url(m/pause_green.png) no-repeat; }
+	#lbPause.blue { background: url(m/pause_blue.png) no-repeat; }
+	#lbPause.gold { background: url(m/pause_gold.png) no-repeat; }
+/* aw */
+#lbTitle { background: #fff; text-align: right; color: #AD2017; font-weight: bold; font-size: 11pt; padding: 1em 0.8em 0.2em 0em; }
+
+#lbOverlay { position: absolute; top: 0; left: 0; z-index: 99998; width: 100%; height: 500px; background-color: #000000;}
+	#lbOverlay.grey { background-color: #000000; }
+	#lbOverlay.red { background-color: #330000; }
+	#lbOverlay.green { background-color: #003300; }
+	#lbOverlay.blue { background-color: Gray; }
+	#lbOverlay.gold { background-color: #666600; }
+
+#lbMain { position: absolute; left: 0; width: 100%; z-index: 99999; text-align: center; line-height: 0; }
+#lbMain a img { border: none; }
+
+#lbOuterContainer { position: relative; background-color: #fff; width: 200px; height: 200px; margin: 0 auto; }
+	#lbOuterContainer.grey { border: 3px solid #888888; }
+	#lbOuterContainer.red { border: 3px solid #DD0000; }
+	#lbOuterContainer.green { border: 3px solid #00B000; }
+	#lbOuterContainer.blue { border: 3px solid #5F89D8; }
+	#lbOuterContainer.gold { border: 3px solid #B0B000; }
+
+#lbDetailsContainer {	font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em;	overflow: hidden; margin: 0 auto; }
+	#lbDetailsContainer.grey { border: 3px solid #888888; border-top: none; }
+	#lbDetailsContainer.red { border: 3px solid #DD0000; border-top: none; }
+	#lbDetailsContainer.green { border: 3px solid #00B000; border-top: none; }
+	#lbDetailsContainer.blue { border: 3px solid #5F89D8; border-top: none; }
+	#lbDetailsContainer.gold { border: 3px solid #B0B000; border-top: none; }
+
+#lbImageContainer, #lbIframeContainer { padding: 10px; }
+#lbLoading {
+	position: absolute; top: 45%; left: 0%; height: 32px; width: 100%; text-align: center; line-height: 0; background: url(m/loading.gif) center no-repeat;
+}
+
+#lbHoverNav { position: absolute; top: 60; left: 0; height: 90%; width: 100%; z-index: 10; }
+#lbImageContainer>#lbHoverNav { left: 0; }
+#lbHoverNav a { outline: none; }
+
+#lbBottomNav {width:100%;height:40px;}
+
+#lbPrev { width: 63px; height: 22px; background: transparent url(m/blank.gif) no-repeat; display: block; left: 0; float: left; }
+#lbNext { width: 33px; height: 22px; background: transparent url(m/blank.gif) no-repeat; display: block; right: 0; float: right; }
+#lbPrev2, #lbNext2 { text-decoration: none; font-weight: bold; }
+#lbPrev2_Off, #lbNext2_Off { font-weight: bold; }
+	
+#lbPrev, #lbPrev2, #lbPrev2_Off { background: url(m/prev.png) left 4px no-repeat; margin-top: 8px; }
+#lbPrev.grey:hover, #lbPrev.grey:visited:hover, #lbPrev2:hover, #lbPrev2_Off:hover { background: url(m/prev.png) left -28px no-repeat; }
+
+#lbNext, #lbNext2, #lbNext2_Off { background: url(m/next.png) right 4px no-repeat; margin-top: 8px; }
+#lbNext.grey:hover, #lbNext.grey:visited:hover, #lbNext2:hover, #lbNext2_Off:hover { background: url(m/next.png) right -28px no-repeat; }
+
+#lbDetailsData { padding: 0 10px; }
+	#lbDetailsData.grey { color: #333333; }
+	#lbDetailsData.red { color: #620000; }
+	#lbDetailsData.green { color: #003300; }
+	#lbDetailsData.blue { color: #01379E; }
+	#lbDetailsData.gold { color: #666600; }
+
+#lbDetails { width: 100%; float: left; text-align: right; }
+#lbCaption { display: block; font-weight: bold; }
+#lbNumberDisplay { float: left; display: block; padding-bottom: 1.0em; }
+#lbNavDisplay { float: left; display: block; padding-bottom: 1.0em; }
+
+#lbClose { width: 20px; height: 28px; float: left; margin-bottom: 1px; }
+	#lbClose.grey { background: url(m/close.png) no-repeat left 10px; }
+	#lbClose.red { background: url(m/close_red.png) no-repeat; }
+	#lbClose.green { background: url(m/close_green.png) no-repeat; }
+	#lbClose.blue { background: url(m/close.png) no-repeat; }
+	#lbClose.gold { background: url(m/close_gold.png) no-repeat; }
+
+#lbPlay { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lbPlay.grey { background: url(m/play_grey.png) no-repeat; }
+	#lbPlay.red { background: url(m/play_red.png) no-repeat; }
+	#lbPlay.green { background: url(m/play_green.png) no-repeat; }
+	#lbPlay.blue { background: url(m/play_blue.png) no-repeat; }
+	#lbPlay.gold { background: url(m/play_gold.png) no-repeat; }
+	
+#lbPause { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lbPause.grey { background: url(m/pause_grey.png) no-repeat; }
+	#lbPause.red { background: url(m/pause_red.png) no-repeat; }
+	#lbPause.green { background: url(m/pause_green.png) no-repeat; }
+	#lbPause.blue { background: url(m/pause_blue.png) no-repeat; }
+	#lbPause.gold { background: url(m/pause_gold.png) no-repeat; }
+	
+.lbReadmore { float: left; clear: both; color: #FEB000; margin-left: -1px; }

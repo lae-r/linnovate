@@ -1,0 +1,7 @@
+.s_menuXml .AspNet-Menu-Vertical { direction: rtl; width: 100%; }
+
+.s_menuXml ul.AspNet-Menu li a
+{ color: black; padding: 6px 21px 6px 2px; background: transparent url('m/mu_arrow.gif') 93% 55% no-repeat; }
+.s_menuXml ul.AspNet-Menu li li a { background-image: none; padding-right: 6px; }
+.s_menuXml ul.AspNet-Menu li li.AspNet-Menu-Hover,
+.s_menuXml ul.AspNet-Menu li li a:hover { color: #fff !important; }

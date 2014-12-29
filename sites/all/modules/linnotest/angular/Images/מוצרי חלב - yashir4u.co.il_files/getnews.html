@@ -1,0 +1,41 @@
+
+<!-- saved from url=(0069)http://www.yashir4u.co.il/controls/newsbox/getnews.ashx?Cms_LAN=he-IL -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link type="text/css" rel="stylesheet" href="news.css"></head><body class="newsbody"><table width="149" height="60" dir="rtl" border="0">
+<tbody><tr><td width="100%" height="100%" dir="rtl" align="right" style="text-align:justify">
+<script type="text/javascript">
+function regenerate() {	window.location.reload(); }
+function regenerate2(){ if (document.layers) { setTimeout("window.onresize=regenerate",450); intializemarquee(); } }
+function runit(act) { var speed; if(act==1) { dmark.scrollAmount=0; speed=0; } else if(act==2) { dmark.scrollAmount=2; speed=0; } }
+function intializemarquee() { var thelength; document.cmarquee01.document.cmarquee02.document.write(marqueecontents); document.cmarquee01.document.cmarquee02.document.close(); thelength=document.cmarquee01.document.cmarquee02.document.height; scrollit(); }
+function scrollit() { if (document.cmarquee01.document.cmarquee02.top>=thelength*(-1)) { document.cmarquee01.document.cmarquee02.top-=speed; setTimeout("scrollit()",100) } else { document.cmarquee01.document.cmarquee02.top=marqueeheight; scrollit(); } }
+function MassageDate(msgElement, bYear, bMonth, bDay, eYear, eMonth, eDay)
+{
+	if (new Date(bYear, bMonth, bDay, 0, 0) > new Date()) {
+		oElm = document.getElementById(msgElement);	oElm.style.display = 'none'; }
+
+	if (new Date(eYear, eMonth, eDay, 23,59) <= new Date()) {
+		oElm = document.getElementById(msgElement);	oElm.style.display = 'none'; }
+}
+window.onload=regenerate2
+</script>
+<marquee id="dmark" direction="up" scrollamount="2" style="width:149;height:60">
+
+<span style="font-family: Arial; display: none;" id="msg_0" onmouseover="runit(1)" onmouseout="runit(2)"><p align="center"><font style="font-size: 14pt" color="#000000"><span style="color: #0000ff"><font style="font-size: 14pt" color="#000000"><span style="color: #0000ff"><font style="color: #0c76bd; font-size: 14pt" color="#000000"><span style="color: #0000ff"><font style="color: #0c76bd; font-size: 14pt" color="#000000"><span style="color: #d42028"><font style="font-size: 14pt" color="#000000"><span style="color: #0000ff"><font style="font-size: 14pt" color="#000000"><span style="color: #0000ff"><font style="font-size: 14pt" color="#000000"><span style="color: #0000ff"><font style="color: #0000ff; font-size: 14pt" color="#000000"></font></span></font></span></font></span></font></span><span style="color: #0c76bd"><font style="font-size: 14pt" color="#000000"><span style="color: #0000ff"><font style="font-size: 14pt" color="#000000"><span style="color: #0000ff"><font style="font-size: 14pt" color="#000000"><span style="color: #0000ff"><font style="color: #0000ff; font-size: 14pt" color="#000000"></font></span></font></span></font></span></font></span>דור 4 של הקניות</font></span><br>
+</font></span></font></span><span style="color: #d42028; font-size: 14pt">ישיר פור יו&nbsp;</span><br>
+&nbsp;&nbsp;<br>
+<span style="color: #0c76bd; font-size: 14pt">דור 4 של הקניות</span><br>
+<span style="color: #d42028; font-size: 14pt">yashir4u&nbsp;</span><br>
+&nbsp;<br>
+</font></p>
+<br></span>
+<script type="text/javascript">
+MassageDate('msg_0', 2005, 0, 1, 2014, 0, 1);
+</script>
+
+</marquee>
+<ilayer width="&amp;{marqueewidth};" height="&amp;{marqueeheight};" name="cmarquee01" align="right">
+<layer name="cmarquee02" width="&amp;{marqueewidth};" height="&amp;{marqueeheight};"></layer>
+</ilayer>
+<br>
+</td></tr></tbody></table>
+</body></html>

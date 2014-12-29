@@ -1,0 +1,52 @@
+.hpline {margin:auto;margin-top:10px;margin-bottom:10px;}
+
+/* Catalog List - Default */
+div.MArticle {overflow: hidden; position: relative; width: 100%; }
+
+.MArticle .ListView { list-style: none; overflow: hidden; margin-top: 0.5em; }
+.MArticle .ListView li { height: 1%; position: relative; }
+.MArticle .ListView li.itm { float:right;width:600px;height:110px; .height:110px; _height:110px; color:#3C3C3C; font-size:9pt; }
+.MArticle .ListView li.sep { height:10px;background: url('m/sp_h.gif') repeat-x 100% 100%;}
+.MArticle .ListView li.itm { background: url('m/sp_v.gif') repeat-y 100% 100%; }
+.MArticle .ListView li.f { background: none; }
+.MArticle .ListView li.itm .content { overflow: hidden; margin-bottom: 1em;height:110px; }
+.MArticle .ListView li.itm .g_row { min-height: 150px; _height: 150px; }
+.MArticle .ListView li:hover.itm { } 
+/* Catalog 2 Columns List - Default */
+.MArticle .ListView li.itm { margin-right: 10px; padding-right: 10px; display: inline; }
+.MArticle .ListView li.f {clear: right; margin-right: 0em; padding: 0em; }
+
+/* */
+.MArticle li.art .content {padding:0.5em 0.5em; padding-bottom:0.4em;}
+.MArticle li.art .dwtop{}
+.MArticle li.art .dtitle {margin-bottom: 0.2em; text-align:center;height:18px; line-height: 18px;overflow:hidden;}
+.MArticle li.art .title {font-size: 1.2em; font-weight:bold; text-align:center;}
+.MArticle li.art .title a{text-decoration:none;display: block;}
+.MArticle li.art .dthumb{float:right;height:70px; text-align:center; } 
+.MArticle li.art .dwtop {float:right;padding-right:10px;}
+.MArticle li.art .cwtop{clear:right;}
+.MArticle li.art .ddescription{height: 37px;text-align:center;}
+.MArticle li.art .description{vertical-align:top; margin:0px;padding:0 6px; display: block; font-size:9pt;}
+.MArticle li.art .dwprice{width:59%; float:right;text-align:right;}
+.MArticle li.art .dprice{height:18px;}
+.MArticle li.art .price{vertical-align:top;color: #F60315; font-size: 1.1em; font-weight: bold; display: block;}
+.MArticle li.art .dbuts{width:100%;}
+.MArticle li.art .ddate{float:right;padding-right:5px;}
+.MArticle li.art .dlink{float:left;padding-left:5px;}
+.MArticle li.art .link{text-decoration:none; display: block; line-height: 23px; text-align: center; width: 70px;}
+.MArticle li.art .link:hover { text-decoration: underline; }
+.MArticle li.art .cinbut{}
+.MArticle li.art .cwbot{clear:both;}
+
+.m_article .title h1{color:#0E3461; font-size:13pt; font-weight: bold;}
+.m_article .brief{font-size:10pt; font-weight:bold; color:#484647; padding:0px; padding-bottom:16px;}
+.m_article .top_dv {border-bottom:1px solid #666666;border-top:1px solid #666666;color:#666666;font-size:8pt;height:16px;padding:5px;}
+.m_article .date_dv{float:right;width:50%;}
+.m_article .tools_dv{float:left;width:50%; text-align:left;}
+.m_article .thumb_dv{float:right;}
+.m_article .thumb_dv img{margin:2px; padding:2px; margin: 0px; text-align: right; float: right; display: inline; border: solid 1px #B3CADC; margin-left:10px;}
+.m_article .info_dv{float:right;}
+.m_article .link_dv{clear:both;}
+.m_article .link_dv a{color:#0063AB;font-size:10pt;text-decoration:none;}
+.m_article .link_dv a:hover{text-decoration:underline;}
+

@@ -1,0 +1,68 @@
+<?php
+
+
+ function linnotest_init() {
+  drupal_add_js('misc/jquery.form.js');
+  drupal_add_library('system', 'drupal.ajax');
+  drupal_add_js('sites/all/modules/linnotest/angular/Libraries/angular-min.js');
+  drupal_add_js('sites/all/modules/linnotest/angular/app.js');
+
+ }
+
+
+
+ /**
+ * Implements hook_block_info().
+ */
+function linnotest_block_info() {
+  $blocks = array();
+  $blocks['store_app'] = array(
+    'info' => t('Store app Block'),
+  );
+
+
+  return $blocks;
+}
+
+
+function linnotest_block_view($delta = '') {
+  // The $delta parameter tells us which block is being requested.
+  switch ($delta) {
+    case 'store_app':
+      $block['content'] = get_super();
+      break;
+  }
+
+  return $block;
+}
+
+function get_super() {
+  $output = <<<HTML
+    <div ng-app="myApp">
+    <div ng-controller = "SuperCtrl">
+	<div class = "container">
+
+	<div class="fixed">  
+	<h3>סל הקניות שלי</h3>
+	<h4>סכום הקניה: {{buyAmount|number:2}} ש"ח</h4><hr/>
+		<div  ng-repeat="p in products" ng-show="p.inbasket==true">{{p.name}}<button  ng-click="p.inbasket=false;prodChange()">x</button></div>
+    </div>
+    <div class="middle">
+	<div style="float:right;margin-right:30px;width:100%;direction:rtl"><h2>חיפוש מוצר</h2><input ng-model="prodSearch"/></div>
+          <product product="p"   ng-repeat="p in products" change="prodChange()"></product>
+    </div>   
+	<div class="fixed" style="float:right">
+       <div ng-repeat="category in categories" class="category" ng-class="{checked:category.id==selectCat}" ng-click="CategoryChange(category.id)">{{category.name}}</div>
+    </div>
+    
+</div>
+	
+   </div>
+	
+
+  </div>
+HTML;
+
+
+    return $output;
+}

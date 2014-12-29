@@ -1,0 +1,6 @@
+<div style="width:90px;height:230x;border:2px solid red;border-radius:5px;float:right;margin:10px;padding:10px;text-align:center;direction:rtl"
+ ng-show="product.show==true&&product.showSearch==true">
+	<image style="height:80px" src="{{product.image}}"/>{{product.name}}<br/>{{product.company}}<br/> {{product.price|number:2}} ש"ח
+	<br/><input type="number" ng-model="product.amount" style="width:50px" ng-change="change()" min="0"/>
+	<br/><br/><button ng-show="product.inbasket!=true" ng-click="product.inbasket=true;change()" >add</button>
+	<button ng-show="product.inbasket==true" ng-click="product.inbasket=false;change()">remove</button></div>

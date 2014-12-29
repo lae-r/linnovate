@@ -1,0 +1,126 @@
+.awFlt { float: right; }
+.awFltA { float: left; }
+
+.ErrIcon { vertical-align: sub; position: absolute; padding: 0em 0.4em; }
+
+/*** Menu ***/
+.topnavlinkItem { direction: ltr; }
+.topnavlinkItem table { direction: rtl; width: 100%; }
+.topnavlinkItem a { display: block;  }
+
+/*** SideContent ***/
+.s_fc_side_c { font-size: 0.8em; padding-top: 1em; padding-bottom: 1em; clear: both; }
+
+/* shopping box*/
+.ShoppingBox { padding:0; font-size: 0.8em; float: left; margin-left:18px;}
+.ShoppingBox a { text-decoration: none; color:#0D76B8; width:120px; float:left; text-align:left;}
+.ShoppingBox a:hover {color:#666;}
+.ShoppingBox .uxCartText {left:2px; position:relative; top:-8px; .position:static;}
+
+/* login box */
+.LoginBox {font-size: 0.8em; float: left; color:#0D76B8; margin:3px 0 0 -65px; text-align:left; width:200px;}
+.LoginBox a { text-decoration: none; color:#0D76B8;}
+.LoginBox a:hover { color:#666; }
+.LoginBox b { background: url('../../ui/yashir4u/m/spc.gif') no-repeat 50% 55%; }
+.LoginBox .hello{float:right; text-align:left; width:158px;}
+.LoginBox .actlogout{float:left;}
+
+
+/* contact us */
+#contactUs {}
+#contactUs h1 {margin-bottom: 10px; }
+#contactUs .contactact{margin-top:10px;}
+#contactUs .submit { margin-right: 130px; _margin-right: 65px; background: url('m/send.gif') no-repeat scroll 50% 50%; text-align:center; color: #fff; display: block; line-height: 17px; width: 54px; font-size: 12px; font-weight: bold; text-decoration: none; float:right;}
+#contactUs .submit:hover { background: url('m/send_ov.gif') no-repeat scroll 50% 50%; }
+#contactUs .bClear { margin-right: 10px; background: url('m/clear.gif') no-repeat scroll 50% 50%; color: #fff; height: 17px; width: 65px; font-size: 12px; font-weight: bold; text-decoration: none;  border:none; cursor:pointer;}
+#contactUs .bClear:hover { background: url('m/clear_ov.gif') no-repeat scroll 50% 50%; }
+#form-ct4 { position: relative; width: 100%;  font-size: 0.8em; .position:static;}
+#form-ct4 #fsHeader { float: left; width: 50%; }
+#form-ct5 {
+	position:relative; padding-top:8px; width:685px; line-height:22px; 
+	background-image:url(../imagesContact/bg_contact.jpg); background-repeat:no-repeat; }
+	
+.flagMsg { position:relative; padding-top:8px; width:685px; line-height:22px; font-weight:bold;
+	background-image:url(../imagesContact/bg_contact.jpg); background-repeat:no-repeat; }
+.flagMsg .title { margin-bottom: 10px; }
+	
+#fsHeader .CPage { padding: 0em; }
+
+
+
+.form-dropdown {padding: 1px 3px;background:#fff url(m/text-bg.gif) repeat-x 0 0;border: 1px solid #CACACA;overflow:hidden;}
+.form-text, textarea.form-field {margin-bottom:5px;background-color: #ffffff;background-image: url('m/text-bg.gif');background-position: center top;background-repeat:repeat-x;padding:1px 3px; border: 1px solid #CACACA; }
+.frm .form-lbl{margin-bottom:10px; line-height: 1.4em; vertical-align: middle; }
+.form-lbl { width: 90px; min-width:90px; margin-bottom:10px; display:block;	float:right; }
+.form-errmsg { width:100px; }
+.clearlabel { clear:right; }
+
+.emailfriend .frm{font-size: 0.8em;}
+.emailfriend a.EFriend{margin-right: 145px; _margin-right: 70px; background: url('m/button.gif') no-repeat scroll 50% 50%; text-align:center; color: #fff; display: block; line-height: 17px; width: 84px; font-size: 12px; font-weight: bold; text-decoration: none; float:right;}
+.emailfriend a.EFriend:hover{background: url('m/button_ov.gif') no-repeat scroll 50% 50%;}
+
+/* Credits */
+#pageCredit {color: #2222a2; direction:ltr; font-size: 0.7em; clear: both; text-align:center;}
+#pageCredit img {margin-right: 3px; vertical-align:middle; .vertical-align:baseline;}
+#pageCredit a {color: #2222a2; text-decoration: none;}
+#pageCredit a:hover{text-decoration:unmcerline;}
+
+/*** BreadCrumbs ***/
+.s_breadcrumb { font-size: 11px; margin-bottom:10px;}
+.s_breadcrumb a{text-decoration:none;}
+.s_breadcrumb em { font-size: 0pt; color: #FFF; }
+
+/*** Controls.Popups ***/
+.confirm-dialog {font-size: 1em;background: url(m/dialog24.png) no-repeat left top;_background: url(m/dialog24.gif) no-repeat left top;margin: 0px auto;width: 330px;padding-top: 14px;_padding-bottom: 12px;position: relative;}
+.confirm-dialog .inner {padding-right: 20px;padding-left: 20px;padding-bottom: 11px;background: url(m/dialog24.png) no-repeat left bottom;_background: url(m/dialog24.gif) no-repeat left bottom;float: left;margin: 0px 0px -20px 0px;width: 290px;padding-top: 0px;} 
+.confirm-dialog .base {	border-top: #ddd 1px solid;	background: url(m/dialog-base.png) no-repeat left bottom;padding-bottom: 4px;margin-left: -8px;margin-right: -8px;padding-top: 4px;text-align: center;}
+.confirm-dialog h2 {font-size: 1.2em; font-weight:bold;	color: #0a75b9; text-align:center;} 
+.confirm-dialog input {width: 50px;}     
+.confirm-dialog input.btn {width: 120px; margin: 0em 10px; font: bold 12px Arial; background:#D32029; color:#fff; border:none;}     
+.confirm-dialog input.btn:hover{background:#999;}
+.close {display: block;	background: url(m/close24.png) no-repeat 0px 0px;left: -5px;width: 26px;text-indent: -1000em;position: absolute;top: -7px;height: 26px;	cursor: pointer;}   
+.modalBackground {background-color:Gray;filter:alpha(opacity=70);opacity:0.7;}
+
+.efPop {background: url(m/dialog24w.png) no-repeat left top;_background: url(m/dialog24w.gif) no-repeat left top;	margin: 0px auto;width: 430px;}
+.efPop .base {border-top: #ddd 1px solid;background: url(m/dialog-basew.png) no-repeat left bottom;}
+.efPop .inner{width:390px;background: url(m/dialog24w.png) no-repeat left bottom;_background: url(m/dialog24w.gif) no-repeat left bottom;}
+.efPop .inner td { vertical-align: middle; border-bottom:1px solid #ECECEC; color:#878787; font-size:12px; font-weight:normal; padding-bottom:20px; padding-right: 3px; padding-top: 20px; text-align:right;}
+
+
+/* -- Menu --*/
+.s_MenuTree {font-size: 12px; float: right; min-width: 100%;}
+.s_MenuTree .title {background:url('M/menu_ttl.jpg') no-repeat right top; height:24px; .width:155px;}
+.s_MenuTree ul.lvl_1{width:150px; float:left;}
+.s_MenuTree ul.lvl_2{border-top:1px dotted #adadad; padding-bottom:10px;}
+.s_MenuTree ul.lvl_3{margin-top:1px; border-bottom:1px dotted #adadad;}
+.s_MenuTree li.lvl_1 {border-bottom:1px dotted #adadad;}
+.s_MenuTree li.mnu_1_1 {border-top:1px dotted #adadad;}
+.s_MenuTree a { text-decoration: none; color: #000; display: block; padding:5px 12px 5px 3px; }
+.s_MenuTree a.lvl_1 {margin:2px 0; color:#616161;}
+.s_MenuTree a.lvl_2{padding-right:25px;}
+.s_MenuTree a.lvl_2:hover{ background: #91c6fa; color:#fff; }
+.s_MenuTree a.lvl_3{padding-right:40px;}
+.s_MenuTree a.lvl_3:hover{ background: #91c6fa; color:#fff; }
+.s_MenuTree a.chd {} 
+.s_MenuTree a:hover { background: #d32029; color:#fff;}
+.s_MenuTree a.shw { background:url('M/menu_arr.gif') no-repeat 5% 50% #d32029; color:#fff; font-weight:bold;}
+.s_MenuTree a:hover.shw { background:url('M/menu_arr.gif') no-repeat 5% 50% #d32029; }
+.s_MenuTree a.scur {}
+.s_MenuTree a.cur { background: #91c6fa; color:#fff; }
+.s_MenuTree a img { float: left; }
+.s_MenuTree ul ul { display: none;  border-top: none; }
+.s_MenuTree ul.shw { display: block; }
+
+
+.s_fc_rightMess{width:150px; float:right; border:1px solid #91cdef; padding:15px 5px; color:#0c76bc; text-align:right; font-size:0.8em; background:url('/ui/yashir4u/m/rightMess_bg.jpg') no-repeat left bottom; line-height:1.3em;}
+
+/* - @DC - start - for floating cart - 17-12-2009 - */
+body, html, form, #pageWrap {	height:99.999%;margin:0;padding:0;width:100%;/*overflow:hidden;*/}
+#pageWrap { overflow-y:auto; overflow-x: hidden; }
+#bgWrap{background:url('/ui/yashir4u/m/body_bg.jpg') no-repeat center top #fff; width:100%; height:100%; }
+#paperclip  {position: relative !important;	top: 0em !important; direction:rtl; _position:absolute;}
+#paperclipEmpty  {position: relative !important;	top: 0em !important;}
+/* - @DC - end - for floating cart - 17-12-2009 - */
+
+.fly_up{margin-top:10px; text-align:left;}
+.fly_up a{background:url('/ui/yashir4u/m/arr_up.gif') no-repeat right 50%; padding-right:13px; display:inline-block; font-size:12px; margin-left: 50px;}

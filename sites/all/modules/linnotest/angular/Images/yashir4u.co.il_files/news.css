@@ -1,0 +1,4 @@
+﻿*{ color: #616161;margin:0; padding:0;}
+.newsbody{background:transparent; border:none;  font-family:Arial; font-size:0.8em; direction:rtl;}
+.newsbody #dmark span{font-size:0.8em; padding-right:1px; display:block; width:149px;}
+.newsbody #dmark a{ color: #616161;}

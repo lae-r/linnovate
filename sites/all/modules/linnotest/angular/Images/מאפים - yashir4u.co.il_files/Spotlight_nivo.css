@@ -1,0 +1,31 @@
+.spotLight {overflow:hidden; border:1px solid #B2E0FA;margin-bottom:15px;}
+.Spotlight  {margin-top:25px; overflow:visible !important; height:247px !important;}
+.Spotlight  .nivoSlider,
+.Spotlight  .slider-wrapper {height:247px !important;}
+.Spotlight .theme-default .nivo-controlNav {
+url("M/bullets.png") no-repeat scroll 0 0 transparent;
+height: 20px;
+    padding: 10px;
+    position: relative;
+    right: -11px;
+    top: 214px;
+    z-index: 9999;text-indent:-9999px;}
+.Spotlight .theme-default .nivo-controlNav a {float:right; color:#98A0A6; margin-right: 6px; }
+.Spotlight .theme-default .nivo-controlNav a.active {color:#000;}
+.Spotlight .nivo-caption p {height: 50px; margin-top:10px;}
+.nivo-html-caption{float:right; width:100%;}
+.nivoTitle {float:right; width:25%; font-weight:bold; font-size:18px;color:#616161;}
+.nivoDescription {float:right; width:70%;}
+.theme-default .nivo-caption a{color:#fff !important;}
+
+.theme-default .nivoSlider{box-shadow:none !important;}
+#wrapper{margin-top: 0;}
+
+
+
+
+
+
+.spotLight{height: 245px;width: 705px;padding:1px;}
+
+

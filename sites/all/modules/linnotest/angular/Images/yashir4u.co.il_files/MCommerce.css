@@ -1,0 +1,220 @@
+/* [ AtpCart ] */
+.AtpCartEmpty { text-align: center; }
+.AtpCartEmpty .CartEmpty { line-height: 3em; font-weight: bold;}
+
+.AtpCart {text-align:center;}
+.AtpCart table { width: 100%; font-size: 0.8em; border-collapse: collapse;  background:#fff;}
+
+.AtpCart table th { text-align: center; color:#0a77bc; font-weight:bold; border:1px solid #b2e0fa; line-height:21px;}
+.AtpCart table th.hId  { width: 50px; }
+.AtpCart table th.hPic { width: 85px; }
+.AtpCart table th.hNme { text-align: right; padding-right: 2em; }
+.AtpCart table th.hQnt { width: 35px; }
+.AtpCart table th.hPrc { width: 60px; }
+.AtpCart table th.hTtl { width: 60px; }
+.AtpCart table th.hAct { width: 75px; }
+
+.AtpCart table td {padding:2px 5px; border:1px solid #b2e0fa;}
+.AtpCart table td.pId { text-align: center; }
+.AtpCart table td.pQnt input { width: 30px; text-align: center; }
+.AtpCart table td.pAct { padding: 5px; }
+.AtpCart table td.pAct a { display: block; text-align: center;  color: #fff; padding:2px; text-decoration: none; font-size:0.9em;}
+.AtpCart table td.pAct a:hover { background: #ababab; text-decoration: none; }
+.AtpCart table td.pAct .upd {margin-bottom:5px; background: #0c76bc;}
+.AtpCart table td.pAct .rmv {background: #d32029;}
+
+.AtpCart table tr.pTtl td { background-color: #0c76bc; color: #fff; font-weight: bold;}
+.AtpCart table tr.Ttl  td { background-color: #0c76bc; color: #fff; font-weight: bold; }
+
+.AtpCart div.ActBar {padding: 0.6em 0em; font-size:0.8em;}
+
+.AtpCart .AC_CheckOut { background: url('mproducts/add_to_cart.gif') no-repeat scroll 50% 50%; color: #fff; display: block; line-height: 17px; text-align: right; padding-right:32px; width:52px; font-weight:bold; text-decoration: none; float: right; margin-right: 37%; _margin-right: 14%;}
+.AtpCart .AC_CheckOut:hover {background: url('mproducts/add_to_cart_ov.gif') no-repeat scroll 50% 50%;}
+.AtpCart .AC_Back { background: url('mproducts/back.gif') no-repeat scroll 50% 50%; color: #fff; display: block; line-height: 17px; text-align: right; width: 50px; text-decoration: none; padding-right:28px; float: right; margin-right:10px; font-weight: bold; }
+.AtpCart .AC_Back:hover {background: url('mproducts/back_ov.gif') no-repeat scroll 50% 50%;}
+
+.floatingCartButton {position:absolute; top:215px; z-index:9999; left:579px; width: 72px;}
+.floatingCartButton img{float:left;}
+
+.floatingCartButton .priceLabel {background: url('mproducts/priceBack.png') no-repeat scroll 0 0 ;clear: both;color: #FFFFFF;float: left;font-weight: bold;padding-bottom: 10px;width: 100%; height:30px;font-size: 13px;}
+.AtpFloatCart table th.hId {}
+.AtpFloatCart table th.hPic {}
+.AtpFloatCart table td.pId {}
+.AtpFloatCart table td.pPic {}
+
+.AtpFloatCart {left:0px;position:absolute;top:215px;z-index:9999; width:569px; padding:10px 10px 10px 0; background:#D32029 ; max-height:300px; _height:300px; direction:ltr; overflow-y:auto; overflow-x:hidden;border-top: 1px solid #D31F28;border-bottom: 1px solid #D31F28;}
+#emptyFloatCart {position: relative !important; _position:absolute;	top: 0em !important; left:0px; direction:rtl; .z-index:1;}
+.emptyCartText{color:#fff; font-weight:bold; left:0;position:absolute;top:215px;z-index:1; width:579px; background:#D32029; height:50px; padding-top:30px;}
+
+.AtpFloatCart table { width: 100%; font-size: 0.8em; border-collapse: collapse;  background:#fff; direction:rtl;}
+.AtpFloatCart table th { text-align: center; color:#0a77bc; font-weight:bold; border:1px solid #b2e0fa; line-height:21px;}
+.AtpFloatCart table th.hId  { width: 50px; }
+.AtpFloatCart table th.hPic { width: 85px; }
+.AtpFloatCart table th.hNme { }
+.AtpFloatCart table th.hQnt { width: 35px; }
+.AtpFloatCart table th.hPrc { width: 60px; }
+.AtpFloatCart table th.hTtl { width: 60px; }
+.AtpFloatCart table th.hAct { width: 75px; }
+
+.AtpFloatCart table td {padding:2px 5px; border:1px solid #b2e0fa;}
+/*.AtpFloatCart table td img{max-height:40px;}*/
+.AtpFloatCart table td.pId { text-align: center; }
+.AtpFloatCart table td.pQnt input { width: 30px; text-align: center; }
+.AtpFloatCart table td.pAct { padding: 5px; }
+.AtpFloatCart table td.pAct a { display: block; text-align: center;  color: #fff; padding:2px; text-decoration: none; font-size:0.9em;}
+.AtpFloatCart table td.pAct a:hover { background: #ababab; text-decoration: none; }
+.AtpFloatCart table td.pAct .upd {margin-bottom:5px; background: #0c76bc;}
+.AtpFloatCart table td.pAct .rmv {background: #d32029;}
+
+.AtpFloatCart table tr.pTtl td { background-color: #0c76bc; color: #fff; font-weight: bold;}
+.AtpFloatCart table tr.Ttl  td { background-color: #0c76bc; color: #fff; font-weight: bold; }
+
+.AtpFloatCart div.ActBar {padding: 0.6em 0em; font-size:1em; text-align:center;}
+
+
+.AtpFloatCart .AC_CheckOut { background: url('mproducts/buy.gif') no-repeat scroll 50% 50%; color: #D32029; line-height:40px; text-align: right; padding-right:45px; width:75px; font-weight:bold; text-decoration: none; display:inline-block;}
+.AtpFloatCart .AC_CheckOut:hover {text-decoration:underline;}
+.AtpFloatCart .AC_Back { background: url('mproducts/back.gif') no-repeat scroll 50% 50%; color: #fff; display: block; line-height: 17px; text-align: right; width: 50px; text-decoration: none; padding-right:28px; float: right; margin-right:10px; font-weight: bold; }
+.AtpFloatCart .AC_Back:hover {background: url('mproducts/back_ov.gif') no-repeat scroll 50% 50%;}
+
+
+
+
+/* --- My Account --- */
+.MyAccount {float:right;font-size:0.8em;margin-top:15px;overflow:hidden;position:relative;width:100%; .position:static;}
+.MyAccount .bxF { _margin-right: 0.75%; }
+.MyAccount .box { height: 235px; border: none; display:inline; float: right; margin-left: 1.5%; margin-bottom: 10px; width: 47.5%; position: relative; background: #fff; border:1px solid #b2e0fa; .position:static;}
+.MyAccount .box h2 { margin-top: 0em; padding: 5px 8px; background: #91C6FA; color:#fff; }
+.MyAccount .box p { padding:10px; .min-height:79px;}
+.MyAccount .box p input { margin-top: 3px; }
+.MyAccount .box .act {position: absolute; bottom: 0px; width: 100%; height: 34px; .margin-top:-15px; .width:350px; .position: static;}
+.MyAccount .box .act * { margin: 5px 5px 5px 10px; /*font: bold 8pt Tahoma;*/ }
+.MyAccount .box .act a { float: right; line-height: 24px; text-decoration: none; margin-right: 10px; }
+.MyAccount .box .act input {float: left; background:url('m/button.gif') no-repeat; width:84px; border:none; color:#fff; font-size:12px; font-weight:bold; }
+.MyAccount .box .act input:hover {background:url('m/button_ov.gif') no-repeat;}
+
+a.WishCartLink {background:url("m/longButton.gif") no-repeat scroll 0 0 transparent;color:#FFFFFF;float:right;font-size:12px;font-weight:bold;line-height:17px; text-align:center; width:155px;}   
+
+/* [ Login ] */
+.MyAccount_Login .header { text-align: right; margin-bottom: 10px; }
+.MyAccount_Login .header .title {margin-bottom: 10px; font-size:1.3em;}
+.MyAccount_Login .confirm-dialog input { font: bold 8pt arial; padding: 0.2em; width: 111px; margin: 0em 1em; }
+
+/* [ Orders ] * /
+.MyAccount_Orders .box { height: 240px; border: solid 1px #C13D30; float: right; margin-right: 1.5%; width: 47.5%; position: relative; background: url('../../uibase/m/boxHeader.gif') repeat-x 0% 0% #CF4C3D;  }
+.MyAccount_Orders .bxF { _margin-right: 0.75%; }
+.MyAccount_Orders .box h2 { margin-top: 0em; padding: 0.4em; border-bottom: solid 1px #C13D30; }
+.MyAccount_Orders .box .content { padding: 0.8em 0.8em 42px; }
+.MyAccount_Orders .box .act { border-top: solid 1px #C13D30; background-color: #A93D32; position: absolute; bottom: 0px; width: 100%; _height: 35px; }
+.MyAccount_Orders .box .act * { margin: 0.4em; font: bold 8pt Tahoma; }
+.MyAccount_Orders .box .act a { float: right; line-height: 2em; margin-right: 0.8em; }
+.MyAccount_Orders .box .act input { padding: 0.2em 0.8em; float: left; }
+*/
+
+.MyAccount_Orders .box_profile h2 {background:transparent; margin:0; padding:0; border:none; color:#0A75B9;} 
+.MyAccount_Orders .box_profile {height:auto; background:transparent; margin-bottom:2em; border:none;}
+.MyAccount_Orders .box_profile .content {margin:1em 0em; padding:0;}
+.MyAccount_Orders .box_profile .act { border-top: none; position: relative; width: auto; height: auto; float:right; .position: static; .margin-top:10px;}
+.MyAccount_Orders .box_profile .act a {line-height: 19px; text-decoration: none; margin-right: 0.8em; }
+.MyAccount_Orders .box_profile .act input { padding: 0em 0.4em;  color:#fff; background:url('m/button.gif') no-repeat; line-height:17px; font-weight:bold; width:84px; margin:0; border:none;}
+.MyAccount_Orders .box_profile .act input:hover{background:url('m/button_ov.gif') no-repeat;}
+
+.MyAccount_Orders h1{font-size:1.3em; margin-bottom: 10px;}
+.MyAccount_Orders .box_orders { width: 96.7%; }
+.MyAccount_Orders .box_orders .content { height: 163px; overflow: auto; }
+.MyAccount_Orders .box_orderDetails { clear: both; width: 96.7%; height: auto; }
+
+.MyAccount_Orders .orders { padding: 0.8em; }
+.MyAccount_Orders .orders table { width: 100%; font-size: 0.9em; border-collapse: separate; border-spacing: 1px; }
+
+.MyAccount_Orders .orders table th { text-align: center; line-height: 1.3em; }
+.MyAccount_Orders .orders table th.hId  { width: 70px; }
+.MyAccount_Orders .orders table th.hDte  { width: 110px; }
+.MyAccount_Orders .orders table th.hTtl  { width: 70px; }
+.MyAccount_Orders .orders table th.hStt { text-align: right; padding-right: 0.2em; }
+
+.MyAccount_Orders .orders table td { background-color: #ddd; padding: 0.2em 0.4em; color: #0D75BC; }
+.MyAccount_Orders .orders table tr.current td { background-color: #91C6FA; font-weight: bold; color:#fff;}
+.MyAccount_Orders .orders table td.iDte { text-align: center; }
+
+.MyAccount_Orders .orders table td.iId { text-align: center; padding: 0em; text-decoration: underline; line-height: 1.8em; }
+.MyAccount_Orders .orders table td.iId a { display: block; text-align: center; color: #0D75BC; }
+.MyAccount_Orders .orders table tr.current td.iId a {color: #fff; }
+.MyAccount_Orders .orders table td.iId a:hover { background-color: #91C6FA; text-decoration: none; }
+
+.MyAccount_Orders .orderDetails { padding: 0.8em 0.8em 47px 0.8em; }
+.MyAccount_Orders .orderDetails table { width: 100%; font-size: 0.9em; border-collapse: separate; border-spacing: 1px; }
+
+.MyAccount_Orders .orderDetails table th { text-align: center; line-height: 1.3em; }
+.MyAccount_Orders .orderDetails table th.hNum  { width: 70px; }
+.MyAccount_Orders .orderDetails table th.hQnt  { width: 70px; }
+.MyAccount_Orders .orderDetails table th.hTtl  { width: 70px; }
+.MyAccount_Orders .orderDetails table th.hNme { text-align: right; padding-right: 0.2em; }
+
+.MyAccount_Orders .orderDetails table td { background-color: #ddd; padding: 0.2em 0.4em; color: #0D75BC; }
+.MyAccount_Orders .orderDetails table td.iQnt { text-align: center; }
+
+.MyAccount_Orders .orderDetails table td.iNum { text-align: center; padding: 0em; text-decoration: underline; line-height: 1.8em; }
+.MyAccount_Orders .orderDetails table td.iNum a,
+.MyAccount_Orders .orderDetails table td.iNme a { display: block; text-align: center; color: #0D75BC; }
+.MyAccount_Orders .orderDetails table td.iNum a:hover,
+.MyAccount_Orders .orderDetails table td.iNme a:hover { background-color: #91C6FA; text-decoration: none; }
+
+.MyAccount_Orders .orderDetails table tr.pTtl td { background-color: #91C6FA; }
+.MyAccount_Orders .orderDetails table tr.Ttl  td { background-color: #91C6FA; font-weight: bold; }
+
+.Login_Login .ErrIcon { margin-right:-20px; }
+
+/* - @DC - start - for floating cart - 17-12-2009 - */
+#paperclip {left:-579px;position:absolute;top:180px; .z-index:1;}
+#paperclip .pc_cart {background:#FFFFFF none repeat scroll 0 0;border:3px solid #598C10;height:350px;width:425px;}
+#paperclip .pc_tab {vertical-align:top;}
+#paperclip .pc_cart iframe {border:medium none;height:100%;width:100%;}
+/* - @DC - end - for floating cart - 17-12-2009 - */
+
+.AtpCart .bottomTD {height:40px;}
+.AtpCart .BuyMultiple {float:right;margin-right:150px;background: none repeat scroll 0 0 #0C76BC;padding:5px;font-size:14px;}
+.AtpCart .BuyMultiple a.buyMulti {color:#fff;}
+.AtpCart .BuyMultiple a:hover {text-decoration:underline;}
+
+.AtpCart .BuySelected {float:right;margin-right:150px;background: none repeat scroll 0 0 #0C76BC;padding:5px;font-size:14px;}
+.AtpCart .BuySelected a.buyMulti {color:#fff;}
+.AtpCart .BuySelected a:hover {text-decoration:underline;}
+
+
+.AtpCart .WishViewRemoveLink {background: none repeat scroll 0 0 #D32029;padding:5px;text-align:center;}
+.AtpCart .WishViewRemoveLink a.remove {color:#fff;}
+.AtpCart .WishViewRemoveLink a:hover {text-decoration:underline;}
+
+.AtpCart .WishViewAddCart {background: none repeat scroll 0 0 #0C76BC;padding:5px;text-align:center;}
+.AtpCart .WishViewAddCart a.addtocart {color:#fff;}
+.AtpCart .WishViewAddCart a:hover {text-decoration:underline;}
+
+.DealDSCTotal{/*direction:ltr;*/}
+
+
+.DealsTitle {height:40px;margin-bottom:15px;margin-left:56px;}
+.DealsTitle {height:40px;margin-bottom:15px;text-align:center;}
+ul.DealsList li {background:url("images/bg.gif") repeat-y scroll right center #F2F2F2;float:right;margin-bottom:10px;padding:10px 0;width:754px;}
+ul.DealsList li .num {color:#FFFFFF;font-weight:bold;text-align: center;width: 20px;}
+ul.DealsList li .content {padding:0 15px;width:550px;}ul.DealsList li .num {color:#FFFFFF;font-weight:bold;text-align:center;width:20px;}
+.DealsTitle h1 {background:url("/ui/yashir4u/m/saleClear.png") no-repeat scroll right center transparent;color:#5F5F5F;display:inline-block;font-size: 24px;font-weight: normal;line-height: 42px;padding: 0 50px;width: 245px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
