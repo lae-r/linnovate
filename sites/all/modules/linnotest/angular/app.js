@@ -69,7 +69,7 @@ myApp.directive('product',function(){
 });
 
 
-function SuperCtrl($scope,Data){
+function SuperCtrl($scope,Data ,$http){
 //myApp.controller('SuperCtrl'['$scope','Data',function($scope,Data)
 //{
 $scope.selectCategory=2;
@@ -103,6 +103,15 @@ value.show=false
 });
 };
 $scope.CategoryChange(1);
+
+
+$http.get('http://mystore.local:8083/json')
+		.success(function(response, status, headers, config) {
+                	$scope.stores = response.result;
+                })
+
+
+
 };
 
 

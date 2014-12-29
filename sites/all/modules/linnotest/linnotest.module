@@ -25,6 +25,24 @@ function linnotest_block_info() {
 }
 
 
+
+function linnotest_menu() {
+  $items['json'] = array(
+    'title' => t('json'),
+    'page callback' => 'get_json',
+    'access arguments' => array('access content'),
+  );
+  
+return $items;
+}
+function get_json(){
+  $query = "SELECT * FROM {node} n WHERE n.type = 'store'";
+  $result = db_query($query)->fetchAll();
+  print drupal_json_encode($result);
+
+}
+
+
 function linnotest_block_view($delta = '') {
   // The $delta parameter tells us which block is being requested.
   switch ($delta) {
@@ -40,6 +58,8 @@ function get_super() {
   $output = <<<HTML
     <div ng-app="myApp">
     <div ng-controller = "SuperCtrl">
+	{{stores}}
+	
 	<div class = "container">
 
 	<div class="fixed">  
